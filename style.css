@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    min-width: 95vw;
+    min-height: 98vh;
+    justify-content: center;
+    padding: 3%;
+}
+
+.left {
+    padding-top: 30vh;
+    width: 50vw;
+}
+
+.right {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.title {
+    font-size: 5vh;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #182370;
+}
+
+.titleHighlight {
+    display: inline-block;
+    color: #284df8;
+}
+
+button {
+    background-color: #fe9f27;
+    border: none;
+    padding: 12px 18px 12px 18px;
+    border-radius: 5px;
+    color: white;
+}
+
+.overtitle, .undertitle, .boxDescription {
+    color: #5162b4;
+}
+
+.box {
+    margin: 20px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border: 1px solid #dcdbdc;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.leftBoxes {
+    margin-left: 50%;
+    margin-right: auto;
+}
+
+.rigtBoxes {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.down {
+    margin-top: 50px;
+}
+
+.boxTitle {
+    font-size: 25px;
+    color: #182370;
+    line-height: 40px;
+}
+
+.building {
+    height: 25px;
+    width: 25px;
+}
+
+.icon {
+    padding: 5px;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+.blue {
+    background-color: #b3daf9;
+}
+
+.orange {
+    background-color: #fff7c0;
+}
+
+.green {
+    background-color: #c1e2c3;
+}
+
+.purple {
+    background-color: #dcb7e2;
+}
+
+.col2 {
+    padding-top: 5%;
+}
